@@ -1,0 +1,23 @@
+LINKS:
+1. CODE PEN: https://codepen.io/ayushi7rawat
+online shared live website
+
+2. AWW WHITEBOARD: https://awwapp.com/?dis=%5B%5B%22close-menus%22%5D%5D
+online shared whiteboard
+
+3. REPL.IT https://repl.it/~
+online shared complier
+
+4. HTML CSS JS RESOUCES: http://codingheroes.io/resources/
+
+5. COLOR SHADES: https://www.materialui.co/flatuicolors
+
+6. SHADE STRIPS: https://www.0to255.com/e67e22
+
+7. ICON PACK VECTOR https://ionicons.com/
+
+8. SYMBOLS: https://css-tricks.com/snippets/html/glyphs/
+
+9. scripts links:	https://www.jsdelivr.com/?query=respond
+
+10. responsive browser testing: https://caniuse.com/#search=transform
