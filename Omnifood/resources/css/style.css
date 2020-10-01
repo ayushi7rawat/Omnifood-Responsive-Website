@@ -5,7 +5,11 @@ Orange color: #e67e22
 
 
 /* ----------------------------------------------- */
+
+
 /* BASIC SETUP */
+
+
 /* ----------------------------------------------- */
 
 * {
@@ -23,9 +27,13 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-.clearfix {zoom: 1;}
+.clearfix {
+    zoom: 1;
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -34,10 +42,14 @@ body {
     visibility: hidden;
 }
 
-/* ----------------------------------------------- */
-/* REUSABLE COMPONENTS */
+
 /* ----------------------------------------------- */
 
+
+/* REUSABLE COMPONENTS */
+
+
+/* ----------------------------------------------- */
 
 .row {
     max-width: 1140px;
@@ -52,7 +64,9 @@ section {
     padding: 1%;
 }
 
+
 /* ----- HEADINGS ----- */
+
 h1,
 h2,
 h3 {
@@ -92,7 +106,9 @@ h2:after {
     margin-top: 30px;
 }
 
+
 /* ----- PARAGRAPHS ----- */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -106,6 +122,7 @@ h2:after {
 
 
 /* ----- ICONS ----- */
+
 .icon-big {
     font-size: 350%;
     display: block;
@@ -120,12 +137,12 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-
     /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
 }
+
 
 /* ----- LINKS ----- */
 
@@ -145,7 +162,9 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
+
 /* ----- BUTTONS ----- */
+
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -193,7 +212,11 @@ input[type=submit]:active {
 
 
 /* ----------------------------------------------- */
+
+
 /* HEADER */
+
+
 /* ----------------------------------------------- */
 
 header {
@@ -222,7 +245,7 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
+.logo-black {
     display: none;
     height: 50px;
     width: auto;
@@ -230,7 +253,9 @@ header {
     margin: 5px 0;
 }
 
+
 /* Main navi */
+
 .main-nav {
     float: right;
     list-style: none;
@@ -261,6 +286,7 @@ header {
 
 
 /* Mobile navi */
+
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
@@ -275,6 +301,7 @@ header {
 
 
 /* Sticky navi */
+
 .sticky {
     position: fixed;
     top: 0;
@@ -285,7 +312,9 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav {
+    margin-top: 18px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -293,11 +322,21 @@ header {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
 
 /* ----------------------------------------------- */
+
+
 /* FEATURES */
+
+
 /* ----------------------------------------------- */
 
 .section-features .long-copy {
@@ -306,7 +345,11 @@ header {
 
 
 /* ----------------------------------------------- */
+
+
 /* MEALS */
+
+
 /* ----------------------------------------------- */
 
 .section-meals {
@@ -350,9 +393,12 @@ header {
 }
 
 
-
 /* ----------------------------------------------- */
+
+
 /* HOW IT WORKS SECTION */
+
+
 /* ----------------------------------------------- */
 
 .section-steps {
@@ -362,7 +408,6 @@ header {
 .steps-box {
     margin-top: 30px;
 }
-
 
 .steps-box:first-child {
     text-align: right;
@@ -414,7 +459,11 @@ header {
 
 
 /* ----------------------------------------------- */
+
+
 /* CITIES */
+
+
 /* ----------------------------------------------- */
 
 .box img {
@@ -429,7 +478,11 @@ header {
 
 
 /* ----------------------------------------------- */
+
+
 /* TESTIMONIALS */
+
+
 /* ----------------------------------------------- */
 
 .section-testimonials {
@@ -472,7 +525,11 @@ cite img {
 
 
 /* ----------------------------------------------- */
+
+
 /* SIGN UP */
+
+
 /* ----------------------------------------------- */
 
 .section-plans {
@@ -503,7 +560,6 @@ cite img {
     border: 0;
 }
 
-
 .plan-price {
     font-size: 300%;
     margin-bottom: 10px;
@@ -530,7 +586,11 @@ cite img {
 
 
 /* ----------------------------------------------- */
+
+
 /* FORM */
+
+
 /* ----------------------------------------------- */
 
 .contact-form {
@@ -556,11 +616,17 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
 
 
 /* ----------------------------------------------- */
+
+
 /* FOOTER */
+
+
 /* ----------------------------------------------- */
 
 footer {
@@ -591,7 +657,7 @@ footer {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
@@ -635,7 +701,6 @@ footer {
     color: #517fa4;
 }
 
-
 footer p {
     color: #888;
     text-align: center;
@@ -643,16 +708,17 @@ footer p {
 }
 
 
-
-
 /* ----------------------------------------------- */
+
+
 /* Animations */
+
+
 /* ----------------------------------------------- */
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
-{
+.js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -669,4 +735,40 @@ footer p {
     opacity: 1;
 }
 
+.head {
+    z-index: 100;
+    position: fixed;
+    background-color: darkslategray;
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
 
+.show-btn:hover,
+.hide-btn:hover,
+.menu li a:hover {
+    color: grey;
+}
+
+.show-btn,
+.hide-btn {
+    font-size: 30px;
+    color: white;
+    line-height: 70px;
+    transition: 0.4s;
+    display: none;
+}
+
+.show-btn {
+    float: right;
+}
+
+#chk {
+    visibility: hidden;
+    z-index: -10;
+    position: fixed;
+}
+
+ul li a:hover {
+    border-bottom: 5px orangered;
+}
